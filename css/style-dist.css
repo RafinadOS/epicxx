@@ -53,6 +53,7 @@ a:hover {
   width: 1140px;
   margin: 0 auto;
 }
+/* колонки */
 .row {
   clear: both;
   display: block;
@@ -73,6 +74,8 @@ a:hover {
 .test .block-inner {
   background: #b3d4f9;
 }
+/* тут можно добавить нужный размер колонок, цифры обозначают часть блока,
+например .col-1-2 - это половина блока, col-1-5 -1\5 блока и т.д. (если делать сумму блоков больше единицы - будет перенос соответственно)*/
 .col-1-2 {
   width: 50%;
 }
@@ -100,6 +103,7 @@ a:hover {
 .col-1-5 {
   width: 20%;
 }
+/* кнопки */
 .button_big_green,
 .button_big_gray,
 .button_big_pink {
@@ -213,6 +217,7 @@ a:hover {
 .buttons input:first-child {
   margin-left: 0;
 }
+/* полурпрзрачные ховеры и изображения */
 .image {
   border-radius: 5px;
 }
@@ -350,6 +355,7 @@ a:hover {
   background: #fff;
   border-radius: 5px;
 }
+/* всплывающий тултип, тругольник у подсказки сделан через бордер у :before */
 .tooltip {
   display: inline-block;
   position: relative;
